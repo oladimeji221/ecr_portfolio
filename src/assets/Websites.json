@@ -1,0 +1,323 @@
+[
+  {
+    "id": "oluebuebechukwu",
+    "title": "Oluebube Chukwu",
+    "description": "The website is dedicated to showcasing Dr. Oluebube A. Chukwu’s efforts to drive positive change in Abia State and Nigeria through social justice, transparent governance, and community-focused initiatives. It emphasizes his role as a leader committed to addressing societal challenges, changing negative narratives, and fostering progress, equity, and accountability.",
+    "image": "/src/assets/img/websites/oluebubechukwu.png",
+    "category": "Personal",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "Social Justice and Community Development",
+          "text": "Dr. Chukwu is the President of the Social Justice Academy (SSA) in Abia State and a founding member of the Oluebube Academy of Social Justice (OASJ). These organizations aim to address societal issues through advocacy, leadership training, and community empowerment. His work focuses on improving the lived experiences of communities by prioritizing solutions to societal problems, such as poverty, lack of access to healthcare, and education barriers."
+        },
+        {
+          "heading": "Governance and Transparency:",
+          "points": [
+            "As the Senior Special Assistant to the Abia State Governor on Due Process and Procurement, Dr. Chukwu has been instrumental in transforming the Abia State Due Process and Public Procurement Bureau. Under his leadership, the bureau has improved staff training, operational capacity, and partnerships with the national Bureau of Public Procurement in Abuja, aiming to set a national standard for transparency and accountability in procurement practices.",
+            "He advocates for good governance, emphasizing integrity, efficiency, and the eradication of corruption to create a prosperous future for Abia State."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "qcm transport",
+    "title": "QCM Healthcare Limited",
+    "description": "The website qcmhealthcare.co.uk is the online platform for QCM Healthcare Limited, a UK-based healthcare agency headquartered in Colchester, Essex, specializing in the recruitment and placement of high-quality nursing and healthcare staff nationwide. The company focuses on providing vetted, experienced professionals to hospitals, nursing homes, and other healthcare facilities, with an emphasis on quality care, rigorous recruitment processes, and sustainability. ",
+    "image": "/src/assets/img/websites/qcm.png",
+    "category": "Medical",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "",
+          "points": [
+            "Core Function: QCM Healthcare is a leading nursing and healthcare agency that connects qualified nurses, healthcare assistants (HCAs), and other professionals with opportunities in public and private sector healthcare settings across the UK. It aims to transform healthcare recruitment by matching the right professionals to the right roles to enhance patient care and improve the quality of life for vulnerable populations.",
+            "Mission: To ensure high-quality patient care by recruiting motivated, skilled, and caring professionals who align with clients’ needs and policies, fostering a workforce that delivers outstanding care",
+            "Vision: To be the preferred healthcare agency in the UK, recognized for its forensic attention to detail, seamless integration with client processes, and commitment to sustainability, targeting Net Zero carbon emissions by 2040.",
+            "Location: Based at Cadman House, Maurice Way, Peartree Road, Colchester, Essex, CO3 0NW, with an additional office in Manchester to support nationwide operations."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gotovet",
+    "title": "MyGoToVet",
+    "description": "The website mygotovet.com is the online platform for MyGoToVet, a comprehensive veterinary service provider offering telehealth consultations, a veterinary blog, job listings, and a pet store. Based in Los Angeles, CA, with contact points in Nigeria, it aims to connect pet owners with expert veterinary care, provide resources for animal health, and offer career opportunities for veterinary professionals globally. ",
+    "image": "/src/assets/img/websites/gotovet.png",
+    "category": "Medical",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "",
+          "points": [
+            "Core Function: MyGoToVet is a digital platform designed to enhance pet care by offering professional veterinary consultations, educational resources, job opportunities, and pet products. It serves pet owners, veterinary professionals, and students, with a focus on accessibility, innovation, and global reach.",
+            "Mission: To provide convenient, high-quality veterinary services and resources, ensuring pet owners can access expert advice and care from home, while supporting veterinary professionals with career opportunities and industry insights.",
+            "Vision: To be a leading platform for pet care and veterinary career development, leveraging technology to improve animal welfare and professional standards worldwide.",
+            "Contact Information: Located at Suite 208, 5410 Wilshire Blvd, Los Angeles, CA 90036, with email info@mygotovet.com (mailto:info@mygotovet.com) and phone numbers +1 (909) 709-6612 (US) and +234 815-5563-300 (Nigeria)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rapha",
+    "title": "Rapha Hotel",
+    "description": "The website raphahotel.ng is the online platform for Rapha Hotel Limited, a hospitality establishment located in Umuahia, Abia State, Nigeria. It provides information about the hotel’s accommodations, dining, event facilities, and booking services, emphasizing comfort, luxury, and accessibility for travelers, business guests, and event organizers. ",
+    "image": "/src/assets/img/websites/rapha.png",
+    "category": "Hospitality",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "",
+          "points": [
+            "Core Function: Rapha Hotel serves as a premier lodging and event venue in Umuahia, offering a range of accommodations, dining options, and facilities for conferences, weddings, and other events. It aims to provide a comfortable and memorable experience for guests visiting Abia State’s capital.",
+            "Mission: To deliver exceptional hospitality services, blending modern amenities with Nigerian warmth, catering to both leisure and business travelers.",
+            "Vision: To be a leading hotel in Nigeria’s Southeast, known for quality accommodations, excellent service, and a welcoming environment that reflects local culture while meeting international standards.",
+            "Location: Situated at 2 Rapha Avenue, off Okigwe Road, Umuahia, Abia State, Nigeria, the hotel is strategically positioned for accessibility to local attractions and business districts."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "telarcove",
+    "title": "Telarcove Limited",
+    "description": "The website telarcove.com is the online platform of Telarcove Limited, a Nigerian-based digital service designed to simplify and enhance the process of booking hotel accommodations, eateries, and event venues. It serves as a comprehensive hub for users to explore, compare, and secure reservations with ease, aiming to create unforgettable experiences in the hospitality and events sector. ",
+    "image": "/src/assets/img/websites/telarcove.png",
+    "category": "Hospitality",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "",
+          "points": [
+            "Core Function: Telarcove is a user-centric platform that streamlines the booking process for hotels, restaurants, and event venues in Nigeria, connecting users with their ideal choices for hospitality and event planning.",
+            "Mission: To simplify and elevate the way people plan, enjoy, and experience events, dining, and hospitality in Nigeria by providing a comprehensive, user-friendly platform that empowers individuals, event organizers, and businesses.",
+            "Vision: To be the leading digital destination for Nigerians seeking to create memorable experiences, savor exquisite culinary offerings, and find exceptional accommodations, while fostering connections within the Nigerian hospitality industry."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "pumeco",
+    "title": "Pumeco Industries Nigeria",
+    "description": "The website pumeco.com.ng is the official online platform of Pumeco Industries Nigeria Limited, a leading civil engineering and construction company in Nigeria, incorporated on July 24, 1986. Specializing in road and bridge construction, the company delivers high-quality, sustainable infrastructure projects that enhance connectivity and drive economic growth. ",
+    "image": "/src/assets/img/websites/pumeco.png",
+    "category": "Business",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "",
+          "points": [
+            "Core Business: Pumeco Industries Nigeria Limited is a premier civil engineering firm renowned for constructing durable roads, bridges, and related infrastructure across Nigeria. It provides turnkey solutions, including building, maintenance, and specialized installations, serving government agencies, parastatals, and private clients.",
+            "Mission: To deliver innovative, high-quality, and sustainable construction solutions that meet client needs, exceed expectations, and contribute to societal development.",
+            "Vision: To be Nigeria’s leading civil engineering company, shaping the future of infrastructure development through superior human and technical resources, innovative technologies, and global best practices.",
+            "Tagline: Positions itself as a “premier responder and engineering solutions provider” for clients’ most demanding needs, treating clients as partners in building lasting infrastructure.",
+            "History: Incorporated in 1986, Pumeco has over three decades of experience, evolving through development and construction expertise to advance engineering solutions via technological innovation."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nwgm",
+    "title": "Nigeria Women's Group Manchester (NWGM)",
+    "description": "The website nigerianwomensgroupmanchester.org is the online presence of the Nigerian Women’s Group Manchester (NWGM), a non-political, non-religious organization established in 2001 to support and empower Nigerian women and their families in Manchester, UK. It fosters cultural unity, social integration, and economic empowerment through workshops, seminars, and community events, celebrating Nigeria’s diverse cultural and linguistic heritage.",
+    "image": "/src/assets/img/websites/nwgm.png",
+    "category": "NGO",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "",
+          "points": [
+            "Mission: The NWGM aims to serve the local Manchester community and Nigeria by representing the interests of Nigerian women, their families, and friends culturally, socially, and economically. It seeks to foster unity, empower women to achieve their full potential, and promote Nigerian cultural values, particularly among youth.",
+            "Core Values: Encourages inclusivity across Nigeria’s diverse cultural and linguistic groups, regardless of age, marital status, or economic circumstances. The group is dynamic, vibrant, and committed to community integration and ethnic diversity.",
+            "Establishment: Founded in 2001 as a non-profit, non-political, and non-religious organization to address the needs of Nigerian women in Manchester."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Jacana Builders",
+    "title": "Jacana Builders & Developers",
+    "description": "The website jacanabuilders.com is the online presence of Jacana Builders & Developers, a construction company offering comprehensive turnkey building solutions, specializing in high-end residential, commercial, and industrial projects. Based on the provided search results, particularly from jacanaconstruction.com (likely a typo or closely related site), the company focuses on delivering quality construction from concept to completion, leveraging in-house expertise and a commitment to client satisfaction. ",
+    "image": "/src/assets/img/websites/jacana_builders.png",
+    "category": "Construction",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "",
+          "points": [
+            "Core Business: Jacana Builders & Developers provides turnkey construction services, managing projects from initial design to final construction. The company emphasizes transforming clients’ visions into reality with exceptional service and high-quality results",
+            "Mission: To deliver outstanding construction projects through professional expertise, innovative design, and a client-centric approach, catering to small, medium, and multi-million-dollar projects."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "checkartisan",
+    "title": "CheckArtisan",
+    "description": "The website checkartisan.com is a platform designed to connect users with local tradespeople and artisans, helping clients find reliable, high-quality professionals for various home improvement and service needs. ",
+    "image": "/src/assets/img/websites/checkartisan.png",
+    "category": "Business",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "",
+          "points": [
+            "Core Function: CheckArtisan serves as an online marketplace that simplifies the process of finding and hiring skilled artisans and tradespeople in local areas. It connects clients with professionals such as plumbers, electricians, carpenters, or other skilled workers, emphasizing quality and trust.",
+            "Mission: The platform aims to provide a seamless, user-friendly experience for homeowners or businesses seeking tradespeople while allowing artisans to showcase their services and build their reputation through client feedback.",
+            "Tagline: Described as the ( smartest way to find a local Tradesman), CheckArtisan focuses on convenience and reliability."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oluebubechukwufoundation",
+    "title": "Oluebube Chukwu Foundation",
+    "description": "The website oluebubeachukwufoundation.org is the online presence of the Oluebube A. Chukwu Foundation, a philanthropic organization based in Abia State, Nigeria. Founded by Dr. Oluebube A. Chukwu, a social entrepreneur and academic, the foundation focuses on creating positive societal impact through initiatives in healthcare, education, agriculture, small-scale entrepreneurship, and leadership development. It aims to uplift marginalized individuals and underserved communities, fostering compassion, inclusivity, and sustainable development.",
+    "image": "/src/assets/img/websites/oluebubefoundation.png",
+    "category": "Ngo",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "Mission and Vision",
+          "text": "The foundation envisions a world where everyone has access to quality healthcare, education, and economic opportunities. Its mission is to act as a catalyst for positive change by addressing pressing community needs."
+        },
+        {
+          "heading": "Program and Objectives",
+          "points": [
+            "Medical Outreach: Provides healthcare services to those lacking access to comprehensive medical care.",
+            "Academic Scholarships: Offers financial support to deserving students facing economic barriers.",
+            "Agro-Support: Promotes sustainable agricultural practices to ensure food security and empower small-scale farmers.",
+            "Micro-Lending: Provides financial assistance and guidance to small-scale entrepreneurs to foster economic growth.",
+            "Leadership Training & Mentorship: Develops leadership skills in young individuals through training and mentorship programs.",
+            "Community Impact: The foundation emphasizes initiatives that create a better present and a promising future for communities in Abia State and beyond.",
+            "Leadership: Dr. Oluebube A. Chukwu, a Senior Special Assistant to the Abia State Governor on Due Process, leads the foundation. His background in social justice and public procurement underscores the organization’s commitment to transparency and governance.",
+            "Engagement: The website likely includes avenues for donations, volunteering, or partnership, though specific details about user interaction are not fully available from the scraped data."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "buberio",
+    "title": "Buberio",
+    "description": "",
+    "image": "/src/assets/img/websites/buberio.png",
+    "category": "Ngo",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "Services",
+          "points": [
+          
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "buberiofc",
+    "title": "Buberio FC",
+    "description": "",
+    "image": "/src/assets/img/websites/buberiofc.png",
+    "category": "Ngo",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "",
+          "text": ""
+        },
+        {
+          "heading": "Services",
+          "points": [
+            
+          ]
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "qikpharma",
+    "title": "qikPharma Website Summary",
+    "description": "The website qikPharma.com is an e-commerce platform focused on pharmaceutical products and services in Africa. It aims to provide a trusted and accessible experience for purchasing pharmaceutical products, targeting both rural and urban African consumers. The platform emphasizes convenience, security, and a wide range of health and wellness products, positioning itself as a One-Stop-Shop for pharma needs in Africa.",
+    "image": "/src/assets/img/websites/qikpharma.png",
+    "category": "Business",
+    "details": {
+      "title": "Key Content and Features",
+      "sections": [
+        {
+          "heading": "Mission and Vision",
+          "text": "qikPharma seeks to make the supply and purchase of pharmaceutical products reliable and accessible across Africa, addressing the needs of diverse communities."
+        },
+        {
+          "heading": "Services",
+          "points": [
+            "Online Pharmacy: Offers a range of pharmaceutical products, including prescription and over-the-counter medications, health, and wellness products.",
+            "Secure Transactions: Implements two-factor authentication to enhance user security, as noted in their app description on the App Store.",
+            "Accessibility: Focuses on providing easy access to medicines for rural and urban dwellers, addressing challenges like limited pharmacy availability in remote areas.",
+            "Privacy and Security: The website is protected by reCAPTCHA, and it adheres to Google’s Privacy Policy and Terms of Service. No data collection is reported for their mobile app, emphasizing privacy.",
+            "Social Media Presence: qikPharma maintains an active Facebook page with 29 likes, promoting their services and celebrating community-oriented campaigns, such as Father’s Day posts highlighting fathers' roles in family health.",
+            "Mobile Application: Available on the App Store (iOS 12.0 or later) and likely other platforms, enabling users to order medicines conveniently from mobile devices or computers.",
+            "User Engagement: Offers email subscriptions for updates, promotions, and more, encouraging user interaction and loyalty."
+          ]
+        }
+      ]
+    }
+  }
+]
