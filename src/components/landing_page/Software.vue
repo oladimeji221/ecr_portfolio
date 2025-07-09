@@ -2,9 +2,9 @@
   <div class="slider-container sm:py-20 md:py-24 lg:py-2.5">
     <div
       class="slider-track"
-      :style="{ transform: `translateX(-${currentSlide * slideWidth}px)`, transition: isTransitioning ? 'transform 0.5s linear' : 'none' }"
+      :style="{ transform: `translateX(-${currentSlide * slideWidth}px)`, transition: isTransitioning ? 'transform 0.5s linear' : 'none', width: `${infiniteSlides.length * slideWidth}px` }"
     >
-      <div v-for="(slide, index) in infiniteSlides" :key="index" class="slider-slide">
+      <div v-for="(slide, index) in infiniteSlides" :key="index" class="slider-slide w-full">
         <img :src="slide.src" :alt="slide.alt" class="w-24 h-8 sm:w-32 sm:h-10 md:w-48 md:h-14 lg:w-[200px] lg:h-[60px] object-contain" />
       </div>
     </div>
@@ -28,7 +28,7 @@ const slides = [
 // Reactive state
 const currentSlide = ref(0);
 const intervalId = ref(null);
-const slideWidth = ref(200); // Make it reactive
+const slideWidth = ref(0); // Initialize to 0, will be measured
 const isTransitioning = ref(true); // Control CSS transition
 
 // Determine the number of visible slides based on screen size
@@ -67,18 +67,25 @@ const stopAutoplay = () => {
 };
 
 // Lifecycle hooks
+const track = ref(null); // Reference to the slider-track element
+
 onMounted(() => {
   startAutoplay();
-  // Measure slide width after component mounts
+  
   const updateSlideWidth = () => {
+    // Ensure track.value and its children exist before accessing offsetWidth
     if (track.value && track.value.children.length > 0) {
+      // Get the width of a single slide element
       slideWidth.value = track.value.children[0].offsetWidth;
     }
   };
+
   // Initial measurement
   updateSlideWidth();
+
   // Add a resize listener to update slideWidth if window resizes
   window.addEventListener('resize', updateSlideWidth);
+
   onUnmounted(() => {
     window.removeEventListener('resize', updateSlideWidth);
   });
