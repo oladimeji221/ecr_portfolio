@@ -2,7 +2,7 @@
   <div class="slider-container sm:py-20 md:py-24 lg:py-2.5">
     <div
       class="slider-track"
-      :style="{ transform: `translateX(-${currentSlide * slideWidth}px)` }"
+      :style="{ transform: `translateX(-${currentSlide * slideWidth}px)`, transition: isTransitioning ? 'transform 0.5s linear' : 'none' }"
     >
       <div v-for="(slide, index) in infiniteSlides" :key="index" class="slider-slide">
         <img :src="slide.src" :alt="slide.alt" class="w-24 h-8 sm:w-32 sm:h-10 md:w-48 md:h-14 lg:w-[200px] lg:h-[60px] object-contain" />
@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted, computed } from 'vue';
+import { ref, onMounted, onUnmounted, computed, nextTick } from 'vue';
 
 // Slider data
 const slides = [
@@ -25,25 +25,39 @@ const slides = [
   { src: new URL('@/assets/img/bootstrap.svg', import.meta.url).href, alt: 'Bootstrap' },
 ];
 
-// Duplicate slides for infinite scrolling
-const infiniteSlides = computed(() => [...slides, ...slides]);
-
 // Reactive state
 const currentSlide = ref(0);
 const intervalId = ref(null);
 const slideWidth = ref(200); // Make it reactive
+const isTransitioning = ref(true); // Control CSS transition
 
 // Determine the number of visible slides based on screen size
 const visibleSlides = computed(() => {
   return window.innerWidth >= 1024 ? 6 : 4 ; // 6 slides for larger screens, 4 for mobile
 });
 
+const numClones = computed(() => visibleSlides.value); // Number of slides to clone at each end
+
+// Duplicate slides for infinite scrolling
+const infiniteSlides = computed(() => {
+  const clonedStart = slides.slice(-numClones.value);
+  const clonedEnd = slides.slice(0, numClones.value);
+  return [...clonedStart, ...slides, ...clonedEnd];
+});
+
 // Autoplay functionality
 const startAutoplay = () => {
+  currentSlide.value = numClones.value; // Start at the first real slide
   intervalId.value = setInterval(() => {
     currentSlide.value++;
-    if (currentSlide.value >= slides.length) {
-      currentSlide.value = 0; 
+    // Check if we've moved into the cloned end slides
+    if (currentSlide.value >= slides.length + numClones.value) {
+      isTransitioning.value = false; // Disable transition for instant jump
+      currentSlide.value = numClones.value; // Jump back to the first real slide
+      // Re-enable transition after a very short delay to allow the jump to render
+      nextTick(() => {
+        isTransitioning.value = true;
+      });
     }
   }, 2000); // Change slide every 2 seconds
 };
@@ -56,15 +70,14 @@ const stopAutoplay = () => {
 onMounted(() => {
   startAutoplay();
   // Measure slide width after component mounts
-  if (track.value && track.value.children.length > 0) {
-    slideWidth.value = track.value.children[0].offsetWidth;
-  }
-  // Add a resize listener to update slideWidth if window resizes
   const updateSlideWidth = () => {
     if (track.value && track.value.children.length > 0) {
       slideWidth.value = track.value.children[0].offsetWidth;
     }
   };
+  // Initial measurement
+  updateSlideWidth();
+  // Add a resize listener to update slideWidth if window resizes
   window.addEventListener('resize', updateSlideWidth);
   onUnmounted(() => {
     window.removeEventListener('resize', updateSlideWidth);
@@ -87,7 +100,7 @@ onUnmounted(() => {
 
 .slider-track {
   display: flex;
-  transition: transform 0.5s linear; /* Linear transition for seamless effect */
+  /* transition handled by :style binding */
 }
 
 .slider-slide {
