@@ -11,7 +11,7 @@
       </div>
   
       <!-- Section Heading -->
-      <h2 class="mx-auto mt-2 max-w-xl text-center text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl mb-6">
+      <h2 class="mx-auto mt-2 max-w-xl text-center text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl mb-6">
        Websites Built By Us
       </h2>
   
