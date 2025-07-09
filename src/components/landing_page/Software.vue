@@ -5,7 +5,7 @@
       :style="{ transform: `translateX(-${currentSlide * slideWidth}px)` }"
     >
       <div v-for="(slide, index) in infiniteSlides" :key="index" class="slider-slide">
-        <img :src="slide.src" :alt="slide.alt" class="slider-image" />
+        <img :src="slide.src" :alt="slide.alt" class="w-24 h-8 sm:w-32 sm:h-10 md:w-48 md:h-14 lg:w-[200px] lg:h-[60px] object-contain" />
       </div>
     </div>
   </div>
@@ -31,11 +31,11 @@ const infiniteSlides = computed(() => [...slides, ...slides]);
 // Reactive state
 const currentSlide = ref(0);
 const intervalId = ref(null);
-const slideWidth = 200; 
+const slideWidth = ref(200); // Make it reactive
 
 // Determine the number of visible slides based on screen size
 const visibleSlides = computed(() => {
-  return window.innerWidth >= 1024 ? 6 : 3 ; // 6 slides for larger screens, 3 for mobile
+  return window.innerWidth >= 1024 ? 6 : 4 ; // 6 slides for larger screens, 4 for mobile
 });
 
 // Autoplay functionality
@@ -55,6 +55,20 @@ const stopAutoplay = () => {
 // Lifecycle hooks
 onMounted(() => {
   startAutoplay();
+  // Measure slide width after component mounts
+  if (track.value && track.value.children.length > 0) {
+    slideWidth.value = track.value.children[0].offsetWidth;
+  }
+  // Add a resize listener to update slideWidth if window resizes
+  const updateSlideWidth = () => {
+    if (track.value && track.value.children.length > 0) {
+      slideWidth.value = track.value.children[0].offsetWidth;
+    }
+  };
+  window.addEventListener('resize', updateSlideWidth);
+  onUnmounted(() => {
+    window.removeEventListener('resize', updateSlideWidth);
+  });
 });
 
 onUnmounted(() => {
@@ -80,9 +94,5 @@ onUnmounted(() => {
   flex: 0 0 auto; /* Ensure slides are not stretched */
 }
 
-.slider-image {
-  width: 200px;
-  height: 60px;
-  object-fit: contain;
-}
+/* Removed fixed width/height from here, now handled by Tailwind classes in template */
 </style>

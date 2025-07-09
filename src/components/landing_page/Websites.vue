@@ -47,7 +47,7 @@
                 {{ slide.cta1 }}
               </button>
             <router-link
-              :to="{ name: 'WebsiteDetails', params: { id: slide.alt } }"
+              :to="slide.route"
               class="px-3 py-1 sm:px-4 sm:py-2 bg-white text-gray-900 font-semibold rounded hover:bg-gray-200 shadow"
             >
               Learn More

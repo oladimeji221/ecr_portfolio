@@ -5,6 +5,7 @@
     "description": "The website is dedicated to showcasing Dr. Oluebube A. Chukwu’s efforts to drive positive change in Abia State and Nigeria through social justice, transparent governance, and community-focused initiatives. It emphasizes his role as a leader committed to addressing societal challenges, changing negative narratives, and fostering progress, equity, and accountability.",
     "image": "/img/websites/oluebubechukwu.png",
     "category": "Personal",
+    "route": { "name": "WebsiteDetails", "params": { "id": "oluebubechukwu" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -28,6 +29,7 @@
     "description": "The website qcmhealthcare.co.uk is the online platform for QCM Healthcare Limited, a UK-based healthcare agency headquartered in Colchester, Essex, specializing in the recruitment and placement of high-quality nursing and healthcare staff nationwide. The company focuses on providing vetted, experienced professionals to hospitals, nursing homes, and other healthcare facilities, with an emphasis on quality care, rigorous recruitment processes, and sustainability. ",
     "image": "/img/websites/qcm.png",
     "category": "Medical",
+    "route": { "name": "WebsiteDetails", "params": { "id": "qcm transport" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -53,6 +55,7 @@
     "description": "The website mygotovet.com is the online platform for MyGoToVet, a comprehensive veterinary service provider offering telehealth consultations, a veterinary blog, job listings, and a pet store. Based in Los Angeles, CA, with contact points in Nigeria, it aims to connect pet owners with expert veterinary care, provide resources for animal health, and offer career opportunities for veterinary professionals globally. ",
     "image": "/img/websites/gotovet.png",
     "category": "Medical",
+    "route": { "name": "WebsiteDetails", "params": { "id": "gotovet" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -78,6 +81,7 @@
     "description": "The website raphahotel.ng is the online platform for Rapha Hotel Limited, a hospitality establishment located in Umuahia, Abia State, Nigeria. It provides information about the hotel’s accommodations, dining, event facilities, and booking services, emphasizing comfort, luxury, and accessibility for travelers, business guests, and event organizers. ",
     "image": "/img/websites/rapha.png",
     "category": "Hospitality",
+    "route": { "name": "WebsiteDetails", "params": { "id": "rapha" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -103,6 +107,7 @@
     "description": "The website telarcove.com is the online platform of Telarcove Limited, a Nigerian-based digital service designed to simplify and enhance the process of booking hotel accommodations, eateries, and event venues. It serves as a comprehensive hub for users to explore, compare, and secure reservations with ease, aiming to create unforgettable experiences in the hospitality and events sector. ",
     "image": "/img/websites/telarcove.png",
     "category": "Hospitality",
+    "route": { "name": "WebsiteDetails", "params": { "id": "telarcove" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -127,6 +132,7 @@
     "description": "The website pumeco.com.ng is the official online platform of Pumeco Industries Nigeria Limited, a leading civil engineering and construction company in Nigeria, incorporated on July 24, 1986. Specializing in road and bridge construction, the company delivers high-quality, sustainable infrastructure projects that enhance connectivity and drive economic growth. ",
     "image": "/img/websites/pumeco.png",
     "category": "Business",
+    "route": { "name": "WebsiteDetails", "params": { "id": "pumeco" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -153,6 +159,7 @@
     "description": "The website nigerianwomensgroupmanchester.org is the online presence of the Nigerian Women’s Group Manchester (NWGM), a non-political, non-religious organization established in 2001 to support and empower Nigerian women and their families in Manchester, UK. It fosters cultural unity, social integration, and economic empowerment through workshops, seminars, and community events, celebrating Nigeria’s diverse cultural and linguistic heritage.",
     "image": "/img/websites/nwgm.png",
     "category": "NGO",
+    "route": { "name": "WebsiteDetails", "params": { "id": "nwgm" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -177,6 +184,7 @@
     "description": "The website jacanabuilders.com is the online presence of Jacana Builders & Developers, a construction company offering comprehensive turnkey building solutions, specializing in high-end residential, commercial, and industrial projects. Based on the provided search results, particularly from jacanaconstruction.com (likely a typo or closely related site), the company focuses on delivering quality construction from concept to completion, leveraging in-house expertise and a commitment to client satisfaction. ",
     "image": "/img/websites/jacana_builders.png",
     "category": "Construction",
+    "route": { "name": "WebsiteDetails", "params": { "id": "Jacana Builders" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -200,6 +208,7 @@
     "description": "The website checkartisan.com is a platform designed to connect users with local tradespeople and artisans, helping clients find reliable, high-quality professionals for various home improvement and service needs. ",
     "image": "/img/websites/checkartisan.png",
     "category": "Business",
+    "route": { "name": "WebsiteDetails", "params": { "id": "checkartisan" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -224,6 +233,7 @@
     "description": "The website oluebubeachukwufoundation.org is the online presence of the Oluebube A. Chukwu Foundation, a philanthropic organization based in Abia State, Nigeria. Founded by Dr. Oluebube A. Chukwu, a social entrepreneur and academic, the foundation focuses on creating positive societal impact through initiatives in healthcare, education, agriculture, small-scale entrepreneurship, and leadership development. It aims to uplift marginalized individuals and underserved communities, fostering compassion, inclusivity, and sustainable development.",
     "image": "/img/websites/oluebubefoundation.png",
     "category": "Ngo",
+    "route": { "name": "WebsiteDetails", "params": { "id": "oluebubechukwufoundation" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -253,6 +263,7 @@
     "description": "",
     "image": "/img/websites/buberio.png",
     "category": "Ngo",
+    "route": { "name": "WebsiteDetails", "params": { "id": "buberio" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -275,6 +286,7 @@
     "description": "",
     "image": "/img/websites/buberiofc.png",
     "category": "Ngo",
+    "route": { "name": "WebsiteDetails", "params": { "id": "buberiofc" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
@@ -298,6 +310,7 @@
     "description": "The website qikPharma.com is an e-commerce platform focused on pharmaceutical products and services in Africa. It aims to provide a trusted and accessible experience for purchasing pharmaceutical products, targeting both rural and urban African consumers. The platform emphasizes convenience, security, and a wide range of health and wellness products, positioning itself as a One-Stop-Shop for pharma needs in Africa.",
     "image": "/img/websites/qikpharma.png",
     "category": "Business",
+    "route": { "name": "WebsiteDetails", "params": { "id": "qikpharma" } },
     "details": {
       "title": "Key Content and Features",
       "sections": [
