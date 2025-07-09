@@ -168,9 +168,14 @@ const closeModal = () => {
   
   .carousel-content {
     position: absolute;
-    bottom: 10%;
+    bottom: 1rem; /* Smaller bottom margin for mobile */
     left: 5%;
     color: white;
+  }
+  @media (min-width: 640px) { /* sm breakpoint */
+    .carousel-content {
+      bottom: 10%; /* Original bottom margin for larger screens */
+    }
   }
   
   .hide-scrollbar::-webkit-scrollbar {
