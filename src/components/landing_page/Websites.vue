@@ -104,22 +104,22 @@
   const track = ref(null);
   
   const allSlides = [
-    { category: 'Ngo', image: new URL('@/assets/img/websites/oluebubefoundation.png', import.meta.url).href, alt: 'oluebubechukwufoundation', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Ngo', image: new URL('@/assets/img/websites/buberio.png', import.meta.url).href, alt: 'buberio', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Ngo', image: new URL('@/assets/img/websites/nwgm.png', import.meta.url).href, alt: 'nwgm', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Ngo', image: new URL('@/assets/img/websites/familyvaluestv.png', import.meta.url).href, alt: 'familyvaluestv', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Ngo', image: new URL('@/assets/img/websites/annieshopefoundation.png', import.meta.url).href, alt: 'annieshopefoundation', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Ngo', image: new URL('/img/websites/oluebubefoundation.png', import.meta.url).href, alt: 'oluebubechukwufoundation', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Ngo', image: new URL('/img/websites/buberio.png', import.meta.url).href, alt: 'buberio', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Ngo', image: new URL('/img/websites/nwgm.png', import.meta.url).href, alt: 'nwgm', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Ngo', image: new URL('/img/websites/familyvaluestv.png', import.meta.url).href, alt: 'familyvaluestv', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Ngo', image: new URL('/img/websites/annieshopefoundation.png', import.meta.url).href, alt: 'annieshopefoundation', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
 
-    { category: 'Business', image: new URL('@/assets/img/websites/pumeco.png', import.meta.url).href, alt: 'pumeco', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Business', image: new URL('@/assets/img/websites/checkartisan.png', import.meta.url).href, alt: 'checkartisan', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Business', image: new URL('/img/websites/pumeco.png', import.meta.url).href, alt: 'pumeco', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Business', image: new URL('/img/websites/checkartisan.png', import.meta.url).href, alt: 'checkartisan', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
 
-    { category: 'Personal', image: new URL('@/assets/img/websites/oluebubechukwu.png', import.meta.url).href, alt: 'oluebuebechukwu', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Hospitality', image: new URL('@/assets/img/websites/telarcove.png', import.meta.url).href, alt: 'telarcove', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Hospitality', image: new URL('@/assets/img/websites/rapha.png', import.meta.url).href, alt: 'rapha', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Hospitality', image: new URL('@/assets/img/websites/bookamia.png', import.meta.url).href, alt: 'bookamia', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Medical', image: new URL('@/assets/img/websites/gotovet.png', import.meta.url).href, alt: 'gotovet', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Medical', image: new URL('@/assets/img/websites/qcm.png', import.meta.url).href, alt: 'qcm transport', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
-    { category: 'Medical', image: new URL('@/assets/img/websites/qikpharma.png', import.meta.url).href, alt: 'qikpharma', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Personal', image: new URL('/img/websites/oluebubechukwu.png', import.meta.url).href, alt: 'oluebuebechukwu', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Hospitality', image: new URL('/img/websites/telarcove.png', import.meta.url).href, alt: 'telarcove', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Hospitality', image: new URL('/img/websites/rapha.png', import.meta.url).href, alt: 'rapha', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Hospitality', image: new URL('/img/websites/bookamia.png', import.meta.url).href, alt: 'bookamia', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Medical', image: new URL('/img/websites/gotovet.png', import.meta.url).href, alt: 'gotovet', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Medical', image: new URL('/img/websites/qcm.png', import.meta.url).href, alt: 'qcm transport', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
+    { category: 'Medical', image: new URL('/img/websites/qikpharma.png', import.meta.url).href, alt: 'qikpharma', title: '', description: '', cta1: 'Request Quote', cta2: 'Learn More' },
 
 
   ];
