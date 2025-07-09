@@ -5,7 +5,7 @@
       :style="{ transform: `translateX(-${currentSlide * slideWidth}px)` }"
     >
       <div v-for="(slide, index) in infiniteSlides" :key="index" class="slider-slide">
-        <img :src="slide.src" :alt="slide.alt" class="w-24 h-8 sm:w-32 sm:h-10 md:w-48 md:h-14 lg:w-[200px] lg:h-[60px] object-contain" />
+        <img :src="slide.src" :alt="slide.alt" class="w-24 h-8 sm:w-40 sm:h-12 md:w-48 md:h-14 lg:w-[200px] lg:h-[60px] object-contain" />
       </div>
     </div>
   </div>
