@@ -11,7 +11,7 @@
       </div>
   
       <!-- Section Heading -->
-      <h2 class="mx-auto mt-2 max-w-xl text-center text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl mb-6">
+      <h2 class="mx-auto mt-2 max-w-xl text-center text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl mb-6">
        Websites Built By Us
       </h2>
   
@@ -43,12 +43,12 @@
             <div class="carousel-content">
               <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2">{{ slide.title }}</h2>
               <p class="text-sm sm:text-base md:text-lg mb-4">{{ slide.description }}</p>
-              <button class="px-4 py-2 bg-sky-500 text-white font-semibold rounded hover:bg-sky-700 mr-2 shadow" @click="openModal">
+              <button class="px-3 py-1 sm:px-4 sm:py-2 bg-sky-500 text-white font-semibold rounded hover:bg-sky-700 mr-2 shadow " @click="openModal">
                 {{ slide.cta1 }}
               </button>
             <router-link
               :to="{ name: 'WebsiteDetails', params: { id: slide.alt } }"
-              class="px-4 py-2 bg-white text-gray-900 font-semibold rounded hover:bg-gray-200 shadow"
+              class="px-3 py-1 sm:px-4 sm:py-2 bg-white text-gray-900 font-semibold rounded hover:bg-gray-200 shadow"
             >
               Learn More
             </router-link>
