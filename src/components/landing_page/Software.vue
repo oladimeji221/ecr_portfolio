@@ -1,5 +1,5 @@
 <template>
-  <div class="slider-container sm:py-32 lg:py-2.5">
+  <div class="slider-container sm:py-20 md:py-24 lg:py-2.5">
     <div
       class="slider-track"
       :style="{ transform: `translateX(-${currentSlide * slideWidth}px)` }"
