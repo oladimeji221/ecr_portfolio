@@ -82,7 +82,7 @@
   
   const slides = ref([
     {
-      image: '/src/assets/img/products/qikpharma.png',
+      image: new URL('@/assets/img/products/qikpharma.png', import.meta.url).href,
       alt: 'qikpharma',
       title: '',
       description: '',
@@ -90,7 +90,7 @@
       cta2: 'Learn More',
     },
     {
-      image: '/src/assets/img/products/checkartisan.png',
+      image: new URL('@/assets/img/products/checkartisan.png', import.meta.url).href,
       alt: 'checkartisan',
       title: '',
       description: '',
@@ -98,7 +98,7 @@
       cta2: 'Learn More',
     },
     {
-      image: '/src/assets/img/products/bookamia.png',
+      image: new URL('@/assets/img/products/bookamia.png', import.meta.url).href,
       alt: 'bookamia',
       title: '',
       description: '',
@@ -106,7 +106,7 @@
       cta2: 'Learn More',
     },
     {
-      image: '/src/assets/img/products/jacana_builders.png',
+      image: new URL('@/assets/img/products/jacana_builders.png', import.meta.url).href,
       alt: 'Jacana Builders',
       title: '',
       description: '',

@@ -16,13 +16,13 @@ import { ref, onMounted, onUnmounted, computed } from 'vue';
 
 // Slider data
 const slides = [
-  { src: '/src/assets/img/nodejs.svg', alt: 'Node.js' },
-  { src: '/src/assets/img/vue-js.svg', alt: 'Vue.js' },
-  { src: '/src/assets/img/tailwindcss.svg', alt: 'TailwindCSS' },
-  { src: '/src/assets/img/laravel.svg', alt: 'Laravel' },
-  { src: '/src/assets/img/python.svg', alt: 'Python' },
-  { src: '/src/assets/img/react.svg', alt: 'React' },
-  { src: '/src/assets/img/bootstrap.svg', alt: 'Bootstrap' },
+  { src: new URL('@/assets/img/nodejs.svg', import.meta.url).href, alt: 'Node.js' },
+  { src: new URL('@/assets/img/vue-js.svg', import.meta.url).href, alt: 'Vue.js' },
+  { src: new URL('@/assets/img/tailwindcss.svg', import.meta.url).href, alt: 'TailwindCSS' },
+  { src: new URL('@/assets/img/laravel.svg', import.meta.url).href, alt: 'Laravel' },
+  { src: new URL('@/assets/img/python.svg', import.meta.url).href, alt: 'Python' },
+  { src: new URL('@/assets/img/react.svg', import.meta.url).href, alt: 'React' },
+  { src: new URL('@/assets/img/bootstrap.svg', import.meta.url).href, alt: 'Bootstrap' },
 ];
 
 // Duplicate slides for infinite scrolling
