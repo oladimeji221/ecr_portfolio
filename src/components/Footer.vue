@@ -6,7 +6,7 @@
           <p class="text-sm text-grey-900 font-semibold mb-2">Let's work together</p>
           <h2 class="text-3xl text-white sm:text-4xl font-bold mb-4">Ready to elevate your brand?<br>Let's build your digital presence.</h2>
           <p class="text-gray-900 mb-6 max-w-2xl mx-auto">Whether you're looking for a stunning website or a high-performance mobile app, ECR Technology Services delivers tailored solutions that help businesses grow and connect meaningfully with their customers.</p>
-          <button class="bg-white hover:border border rounded-full border-gray-950 hover:border-white hover:bg-sky-500 hover:text-white text-grey-900 px-6 py-2 rounded font-semibold">
+          <button class="bg-white hover:border border rounded-full border-gray-950 hover:border-white hover:bg-sky-500 hover:text-white text-grey-900 px-6 py-2 font-semibold">
             Contact Us
           </button>
         </div>
