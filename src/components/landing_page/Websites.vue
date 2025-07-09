@@ -43,15 +43,18 @@
             <div class="carousel-content">
               <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2">{{ slide.title }}</h2>
               <p class="text-sm sm:text-base md:text-lg mb-4">{{ slide.description }}</p>
-              <button class="px-3 py-1 sm:px-4 sm:py-2 bg-sky-500 text-white font-semibold rounded hover:bg-sky-700 mr-2 shadow " @click="openModal">
-                {{ slide.cta1 }}
-              </button>
-            <router-link
-              :to="slide.route"
-              class="px-3 py-1 sm:px-4 sm:py-2 bg-white text-gray-900 font-semibold rounded hover:bg-gray-200 shadow"
-            >
-              Learn More
-            </router-link>
+              <div class="flex flex-wrap gap-2">
+                <button class="px-3 py-1 sm:px-4 sm:py-2 bg-sky-500 text-white font-semibold rounded hover:bg-sky-700 shadow">
+                  {{ slide.cta1 }}
+                </button>
+              
+                <router-link
+                  :to="{ name: 'WebsiteDetails', params: { id: slide.alt } }"
+                  class="px-3 py-1 sm:px-4 sm:py-2 bg-white text-gray-900 font-semibold rounded hover:bg-gray-200 shadow"
+                >
+                  Learn More
+                </router-link>
+              </div>
             
             </div>
           </div>
