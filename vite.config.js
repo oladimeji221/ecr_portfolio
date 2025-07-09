@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: 'https://github.com/oladimeji221/ecr_portfolio/',
+  base: '/ecr-portfolio/',
   plugins: [vue(), tailwindcss()],
   resolve: {
     alias: {
