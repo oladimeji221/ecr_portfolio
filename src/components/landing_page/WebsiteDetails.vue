@@ -29,12 +29,12 @@
 </template>
   
   <script setup>
-  import { ref, onMounted } from 'vue';
+  import { ref, onMounted, watch } from 'vue';
   import { useRoute } from 'vue-router';
-  import { RouterLink } from 'vue-router';
   import websitesData from '@/assets/Websites.json';
   import Nav from './Nav.vue';
   import Footer from '../Footer.vue';
+  import { useHead } from '@vueuse/head';
   
   const route = useRoute();
   const website = ref(null);
@@ -43,5 +43,19 @@
     const websiteId = route.params.id;
     website.value = websitesData.find(w => w.id === websiteId);
   });
+
+  watch(website, (newWebsite) => {
+    if (newWebsite) {
+      useHead({
+        title: newWebsite.title ? `${newWebsite.title} - ECR Portfolio` : 'Website Details - ECR Portfolio',
+        meta: [
+          {
+            name: 'description',
+            content: newWebsite.description || 'Details about a website from ECR Portfolio.',
+          },
+        ],
+      });
+    }
+  }, { immediate: true });
   </script>
   
